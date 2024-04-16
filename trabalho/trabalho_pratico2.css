@@ -2,7 +2,7 @@ html {height:100%;
     background: linear-gradient(#22c1c3, #fdbb2d );}
 
  /*primeiro espaço*/
-.header {display:flex;
+.headerA {display:flex;
     justify-content: space-between;
     height:89px;
     width:100%;
@@ -13,19 +13,19 @@ html {height:100%;
     padding:10px;
     height:20px;}
 
-.list {display:flex;
+.listA {display:flex;
 list-style-type: none;}
 
-.list li a {text-decoration: none;
+.listA li a {text-decoration: none;
 color:yellow;
 background-color:lightblue;
 padding:10px;
 margin:10px;}
 
-.list li a:hover {background-color:antiquewhite;}
+.listA li a:hover {background-color:antiquewhite;}
 
 /*segundo espaço */
-.profile {padding:10px;
+.profileA {padding:10px;
 margin:10px;}
 
 .contentA {margin:10px;
@@ -36,9 +36,9 @@ padding:10px;}
 color:blue}
 .information :hover {color:antiquewhite;}
 
-.info{display:flex;}
+.infoA{display:flex;}
 
-.displayblock{display:flex;
+.displayblockA{display:flex;
 flex-wrap: wrap;}
 
 .informationone{margin-left:10px;
@@ -48,41 +48,64 @@ flex-wrap: wrap;}
 margin-left:10px;
 padding-left:10px;}
 
-.imagemdeperfil {max-width: 140px;
-min-width: 140px;
-max-height: 140px;
-min-height: 140px;
+.imagemdeperfil {width:200px;
 display:flex;}
 
 #instagram {display:flex;
-margin-left: 50px;}
+margin-left: 50px;
+color:#F50057}
 
 
 /*terceiro espaço*/
-.repositories{padding:10px;
+.repositoriesA{padding:10px;
     margin:10px;}
 
-    .conteiner{display:grid;
+    .conteinerA{display:grid;
 grid-template-columns: repeat(3, 1fr);
 gap: 20px;
 align-items: center;
 justify-content: center;
-margin-left: 100px;}
+margin-left: 100px;
+margin-top: 50px;}
 
-.card {border:1px solid white;
+.cardA {border:1px solid white;
     border-radius: 2%;
 background-color:black;
-height:125px;
-justify-content: center;}
+height:125px;}
 
-.card a {text-decoration:none;
+.cardA a {text-decoration:none;
 color:white;}
-.card a :hover {text-decoration:none;}
-.card-text {margin-left: 10px;}
+.cardA a :hover {text-decoration:none;}
+.card-textA {margin-left: 10px;}
+
+
 
 /*quarto espaço*/
 .colegasdetrabalho{padding:10px;
         margin:10px;}
+
+
+.divA img {max-width: 130px;}
+
+.colegas {
+    display: flex;
+    justify-content: center;
+  }
+  .divA {
+    text-align: center;
+    margin: 0 50px; /* Espaçamento entre as imagens */
+  }
+  .divA img {
+    display: block; /* Para centralizar corretamente */
+    margin: 0 auto; /* Centraliza a imagem */
+    max-width: 200px; /* Tamanho máximo da imagem */
+  }
+  .divA p {
+    margin-top: 5px; /* Espaço entre a imagem e o nome */
+  }
+  .divA a{color:white;
+text-decoration: none;}
+
 
 
 /*linhas*/
@@ -97,3 +120,11 @@ border:1px solid black;}
 .linhaC {color:black;
     width:100%;
         border:1px solid black;}
+
+.lineD {color:black;
+    width:100%;
+    border:1px solid black;}
+
+.lineE{color:black;
+        width:100%;
+            border:1px solid black;}
