@@ -55,13 +55,13 @@ min-height: 140px;
 display:flex;}
 
 #instagram {display:flex;
-margin-left: 100px;}
-
+margin-left: 50px;}
 
 
 /*terceiro espaço*/
 .repositories{padding:10px;
     margin:10px;}
+.conteiner{display:grid;}
 
 /*quarto espaço*/
 .colegasdetrabalho{padding:10px;
