@@ -128,3 +128,82 @@ border:1px solid black;}
 .lineE{color:black;
         width:100%;
             border:1px solid black;}
+.contentD a {text-decoration: none;
+color:white; 
+padding-left: 20px;}
+
+@media screen and (max-width: 768px) {
+    .headerA {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .navA {
+      margin-top: 20px;
+    }
+  
+    .contentA {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  
+    .infoA {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .imagemdeperfil {
+      width: 150px;
+    }
+  
+    .displayblockA {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .informationone,
+    .information {
+      margin-left: 0;
+      padding-left: 0;
+      text-align: center;
+    }
+  
+    .iconA {
+      margin-top: 20px;
+      margin-left: 0;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .conteinerA {
+      grid-template-columns: repeat(2, 1fr);
+      margin-left: 10px;
+      margin-top: 20px;
+    }
+  }
+  
+  /* Estilos para telas menores que 576px (smartphones em modo retrato) */
+  @media screen and (max-width: 576px) {
+    .nome {
+      font-size: 18px;
+    }
+  
+    .listA li a {
+      padding: 5px;
+      margin: 5px;
+    }
+  
+    .cardA {
+      height: 150px;
+    }
+  
+    .conteinerA {
+      grid-template-columns: repeat(1, 1fr);
+      margin-left: 0;
+    }
+    .divA{display:flex;
+    flex-wrap: wrap;}
+    .colegas {display:flex;
+    flex-wrap: wrap;}
+  }
