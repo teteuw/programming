@@ -36,10 +36,10 @@ padding:10px;}
 color:blue}
 .information :hover {color:antiquewhite;}
 
-.info{display:flex;
-flex-wrap: wrap;}
+.info{display:flex;}
 
-.displayblock{display:block;}
+.displayblock{display:flex;
+flex-wrap: wrap;}
 
 .informationone{margin-left:10px;
   padding-left:10px;}
@@ -61,7 +61,24 @@ margin-left: 50px;}
 /*terceiro espaço*/
 .repositories{padding:10px;
     margin:10px;}
-.conteiner{display:grid;}
+
+    .conteiner{display:grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+align-items: center;
+justify-content: center;
+margin-left: 100px;}
+
+.card {border:1px solid white;
+    border-radius: 2%;
+background-color:black;
+height:125px;
+justify-content: center;}
+
+.card a {text-decoration:none;
+color:white;}
+.card a :hover {text-decoration:none;}
+.card-text {margin-left: 10px;}
 
 /*quarto espaço*/
 .colegasdetrabalho{padding:10px;
